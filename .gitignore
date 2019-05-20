@@ -1,5 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# Build nicht exportieren
+build/*
+!build/build.xml
+dist/*
+
 # compiled output
 /dist
 /tmp
